@@ -1,6 +1,6 @@
 const Notebook = ({ entries = [], numLines = 13 }) => {
   return (
-    <div className="relative w-full max-w-xl h-150 mb-10 ml-20 mt-10 p-6 bg-white shadow-lg rounded-md border border-gray-300">
+    <div className="relative max-w-md md:max-w-2xl h-150 mb-10 sm:ml-10 md:ml-30 mt-10 p-6 bg-purple-50 shadow-lg rounded-md border border-gray-300">
       <div className="absolute top-28 left-5 w-4 h-4 bg-stone-100 rounded-full border border-stone-300"></div>
       <div className="absolute top-115 left-5 w-4 h-4 bg-stone-100 rounded-full border border-stone-300"></div>
       <div className="absolute top-0 left-14 w-0.5 h-full bg-red-500"></div>

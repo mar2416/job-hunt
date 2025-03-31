@@ -7,7 +7,7 @@ const MobileNav = () => {
 
   return (
     <nav className="flex items-center justify-between p-5">
-      <img src={logo} alt="logo" className="w-70 ml-10" />
+      <img src={logo} alt="logo" className="w-70" />
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-col justify-around items-end w-10 h-9 mr-7 ml-auto group cursor-pointer"
