@@ -1,4 +1,4 @@
-import OptionsContainer from "../buttons/Options/OptionsContainer";
+import OptionsContainer from "../OptionsMenu/OptionsContainer";
 
 const Notebook = ({
   entries = ["Your First job", "Your second job"],

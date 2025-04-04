@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import OptionsButton from "./OptionsButton";
+import OptionsButton from "../buttons/OptionsButton";
 import OptionsCard from "./OptionsCard";
 
 const OptionsContainer = () => {
